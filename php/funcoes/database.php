@@ -3,11 +3,11 @@
 $data_base = [
     "host" => "localhost",
     "user" => "root",
-    "password" => "", 
-    "name" => "first_database" 
+    "password" => "",
+    "name" => "first_database"
 ];
 
-function selectSQL($sql){
+function selectSQL($sql) {
     global $data_base;
 
     $connection = mysqli_connect($data_base["host"], $data_base["user"], $data_base["password"], $data_base["name"]);
@@ -18,7 +18,7 @@ function selectSQL($sql){
     return $return;
 }
 
-function selectSQLUnico($sql){
+function selectSQLUnico($sql) {
     global $data_base;
 
     $connection = mysqli_connect($data_base["host"], $data_base["user"], $data_base["password"], $data_base["name"]);
@@ -29,7 +29,7 @@ function selectSQLUnico($sql){
     return $return;
 }
 
-function iduSQL($sql){
+function iduSQL($sql) {
     global $data_base;
 
     $connection = mysqli_connect($data_base["host"], $data_base["user"], $data_base["password"], $data_base["name"]);

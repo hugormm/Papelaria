@@ -15,11 +15,12 @@ input {
     text-align: center;
 }
 
-input[type="submit"], button {
+input[type="submit"],
+button {
     border: 1px dashed grey;
     border-radius: 30px;
     background-color: rgba(0, 255, 255, 0.5);
-    color:  rgb(48, 150, 99);
+    color: rgb(48, 150, 99);
     font-size: 14px;
 }
 
@@ -50,7 +51,8 @@ table {
     margin: auto;
 }
 
-th, td {
+th,
+td {
     padding: 10px 20px;
     border: 3px dashed rgb(42, 102, 102);
 }
