@@ -1,0 +1,72 @@
+body {
+    background-image: url("../JPG/fundo_1.jpg");
+    background-size: auto;
+    color: rgb(48, 150, 99);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box {
+    border: 3px solid grey;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+input {
+    text-align: center;
+}
+
+input[type="submit"], button {
+    border: 1px dashed grey;
+    border-radius: 30px;
+    background-color: rgba(0, 255, 255, 0.5);
+    color:  rgb(48, 150, 99);
+    font-size: 14px;
+}
+
+.nav-link {
+    padding: 0px 10px;
+    color: rgb(48, 150, 99);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    font-size: 18px;
+    color: cyan;
+}
+
+.active {
+    color: rgb(48, 150, 99) !important;
+    text-decoration: underline !important;
+    text-decoration-color: cyan !important;
+    text-decoration-thickness: 3px !important;
+}
+
+label {
+    color: black;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px 20px;
+    border: 3px dashed rgb(42, 102, 102);
+}
+
+td:hover {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+tr:hover {
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+th {
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 255, 255, 0.15);
+}
